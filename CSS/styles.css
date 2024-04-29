@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px 100px;
+    color: white;
+}
+body{
+    background-color: #d7b99d;
+    
+}
+.keyboard{
+    height: 420px;
+    background-color: #d47617;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url("https://www.transparenttextures.com/patterns/wood.png");
+}
+
+.key{
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .4);
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 2px 2px 2px rgba(206,89,55,0);
+    box-shadow: 2px 2px 3px #80461B;
+    transition: all .1s ease-in;
+    background-color:#c4a356;
+}
+
+.row-1-keys:active .key{
+    top: 0;
+    left: 0;
+    box-shadow: none;
+}
+
+
+.row-1-keys{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(233deg, #CC7722, #C8B575);
+    box-shadow: inset -1px -1px 1px #704214;
+    border: 0.8px inset rgba(0, 0, 0, .8);
+    border-radius: 5px;
+    margin: 2px;
+}
+.section1{
+    height: 30px;
+}
+.backspace{
+    width: 120px;
+}
+
+.backspace .key{
+    font-size: 17px;
+}
+
+.tabkey{
+    width: 90px;
+}
+
+.slashkey{
+    width: 70px;
+}
+
+.capskey{
+    width: 130px;
+}
+
+.shiftkey{
+    width: 150px;
+}
+
+.spacebar{
+    width: 360px;
+}
+
+.enterkey1{
+    width: 99px;
+}
+
+.homekey{
+    width: 65px;
+}
+
+.endkey{
+    width: 65px;
+}
+
+.inskey{
+    width: 130px;
+}
+
+.delkey{
+    width: 60px;
+}
+
+.firstrow{
+    height: 30px;
+    width: 55px;
+}
+
+.plus-key{
+    height: 128px;
+    position: absolute;
+    margin-left: 5px;
+    
+}
+
+.enterkey2{
+    height: 128px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.up{
+    height: 28px;
+    position: absolute;
+    
+    
+
+}
+
+.up .key {
+    font-size: 10px;
+}
+
+.down{
+    height: 28px;
+    
+}
+
+.down .key{
+    font-size: 10px;
+}
+
+.key i{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.delete .key{
+    font-size: 15px;
+}
+
+img{
+    margin: 5px 0 0 3px;
+    height: 20px;
+    opacity: .5;
+}
+
+.numlock .key{
+    font-size: 15px;
+}
+
+.smallbutton{
+    width: 40px;
+    border-radius: 3px;
+}
+
+.number2 {
+    margin-top: 1px;
+}
+
+.number8{
+    
+}
+    
+
+
+
+
